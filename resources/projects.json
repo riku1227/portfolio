@@ -1,0 +1,109 @@
+{
+    "$schema": "./projects.schema.json",
+    "project-list": [
+        {
+            "title": "Novel AI Manager",
+            "category": "Programming",
+            "descriptions": [
+                "AIで画像を生成するためのプロンプトを管理するソフト",
+                "Flutter(Dart)で開発"
+            ],
+            "thumbnail_image_path": "resources/projects/novel_ai_manager/cover.png",
+            "url": "https://github.com/riku1227/NovelAIManager"
+        },
+        {
+            "title": "Better vrchat DOT com",
+            "category": "Programming",
+            "descriptions": [
+                "VRChat公式サイト(/home)を便利にするブラウザ向け拡張機能",
+                "TypeScriptで開発"
+            ],
+            "thumbnail_image_path": "resources/projects/better_vrchat_dot_com/cover.png",
+            "url": "https://github.com/riku1227/Better-vrchat-DOT-com"
+        },
+        {
+            "title": "Chatter GPT (WIP)",
+            "category": "Programming",
+            "descriptions": [
+                "ChatGPTのAPIが開放された頃に開発していたChatGPT APIのクライアント",
+                "Flutter(Dart)で開発"
+            ],
+            "thumbnail_image_path": "resources/projects/chatter_gpt/cover.png",
+            "url": "https://github.com/riku1227/chatter-gpt"
+        },
+        {
+            "title": "RTools: NGS",
+            "category": "Programming",
+            "descriptions": [
+                "ChatGPTのAPIが開放された頃に開発していたChatGPT APIのクライアント",
+                "Flutter(Dart)で開発"
+            ],
+            "thumbnail_image_path": "resources/projects/rtools_ngs/cover.jpg",
+            "url": "https://riku1227.com/rtools/ngs/#/"
+        },
+        {
+            "title": "RiClothes Website",
+            "category": "Programming",
+            "descriptions": [
+                "RiClothesというVRC向けのアバター衣装を販売する用のブランドのサイト",
+                "Vue.js(2.6)で開発"
+            ],
+            "thumbnail_image_path": "resources/projects/riclothes_website/cover.png",
+            "url": "https://riclothes.riku1227.com/"
+        },
+        {
+            "title": "Groupindow",
+            "category": "Programming",
+            "descriptions": [
+                "設定した複数のウィンドウを同時に前に持ってこれるようにするソフト",
+                "WPF(C#)で開発"
+            ],
+            "thumbnail_image_path": "resources/projects/growpindow/cover.jpg",
+            "url": "https://riclothes.riku1227.com/"
+        },
+        {
+            "title": "ひとくちSpoimon ロゴ",
+            "category": "Design",
+            "descriptions": [
+                "身内グループSpoimon向けに制作している動画シリーズ「ひとくちSpoimon」用のロゴ"
+            ],
+            "thumbnail_image_path": "resources/projects/hitospo_logo/cover.png"
+        },
+        {
+            "title": "RiClothes ロゴ",
+            "category": "Design",
+            "descriptions": [
+                "VRChat向けアバター用衣装を制作/販売するバーチャルブランド RiClothes のロゴ"
+            ],
+            "thumbnail_image_path": "resources/projects/riclothes_logo/cover.png",
+            "url": "https://riclothes.riku1227.com/"
+        },
+        {
+            "title": "ひとくちSpoimon 旧ロゴ",
+            "category": "Design",
+            "descriptions": [
+                "身内グループSpoimon向けに制作している動画シリーズ「ひとくちSpoimon」用の旧ロゴ"
+            ],
+            "thumbnail_image_path": "resources/projects/old_spoimon_logo/cover.png"
+        },
+        {
+            "title": "SPOサーバー(仮称)-開発中",
+            "category": "Programming",
+            "descriptions": [
+                "面白いを詰め込んだMMOのような雰囲気を目指すMinecraftサーバー(開発中)",
+                "PaperMC/Kotlinで開発/個人ストレージのDBにSQLiteを使用/フラグ管理にJSONを使用"
+            ],
+            "thumbnail_image_path": "resources/projects/spo_server/cover.png"
+        },
+        {
+            "title": "ひとくちSpoimon 2023まとめ OP",
+            "category": "Video Editing",
+            "descriptions": [
+                "身内グループ向けに制作している「ひとくちSpoimon」という動画シリーズの2023年まとめスペシャル用のOP",
+                "Davicni Resolve Studioで編集"
+            ],
+            "thumbnail_image_path": "resources/projects/hitokuti_spoimon_2023_op/cover.png",
+            "url": "https://www.youtube.com/watch?v=PZ-L0jA5Ok4"
+        }
+    ]
+}

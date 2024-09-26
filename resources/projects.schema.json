@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "ProjectList",
+    "type": "object",
+    "properties": {
+        "project-list": {
+            "type": "array",
+            "description": "A list of projects",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "type": "string",
+                        "description": "The title of the project"
+                    },
+                    "category": {
+                        "type": "string",
+                        "description": "The category of the project",
+                        "enum": ["Programming", "Design", "Video Editing", "Other"]
+                    },
+                    "descriptions": {
+                        "type": "array",
+                        "description": "A brief description of the project",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "thumbnail_image_path": {
+                        "type": "string",
+                        "description": "URL to the thumbnail image of the project"
+                    },
+                    "url": {
+                        "type": "string",
+                        "description": "URL to the project",
+                        "format": "uri"
+                    }
+                },
+                "required": ["title", "category", "description", "thumbnail_image_path"],
+                "additionalProperties": false
+            }
+        }
+    },
+    "required": ["project-list"],
+    "additionalProperties": false
+}
